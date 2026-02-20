@@ -69,6 +69,15 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **PRES-03**: User can export visual stakeholder roadmap as PDF
 - [ ] **PRES-04**: User can export technical delivery plan as PDF
 
+### Audit & Traceability
+
+- [ ] **AUDIT-01**: All code includes JSDoc comments explaining purpose and reasoning
+- [ ] **AUDIT-02**: All database operations are logged with timestamp, user, and action
+- [ ] **AUDIT-03**: System maintains changelog tracking what was added/modified in each deployment
+- [ ] **AUDIT-04**: Error logs capture full stack traces and context for debugging
+- [ ] **AUDIT-05**: Git commits follow conventional commit format with detailed descriptions
+- [ ] **AUDIT-06**: Each feature includes inline comments explaining non-obvious decisions
+
 ### Collaboration & Export
 
 - [ ] **COLLAB-01**: Changes from one consultant sync to other consultants on save (near-real-time, not live)
@@ -135,6 +144,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROJ-01 | Phase 1 | Pending |
 | PROJ-02 | Phase 1 | Pending |
 | PROJ-03 | Phase 1 | Pending |
+| AUDIT-01 | Phase 1 | Pending |
+| AUDIT-02 | Phase 1 | Pending |
+| AUDIT-03 | Phase 1 | Pending |
+| AUDIT-04 | Phase 1 | Pending |
+| AUDIT-05 | Phase 1 | Pending |
+| AUDIT-06 | Phase 1 | Pending |
 | PROJ-04 | Phase 7 | Pending |
 | PROJ-05 | Phase 7 | Pending |
 | PROJ-06 | Phase 7 | Pending |
@@ -182,11 +197,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | EXPORT-04 | Phase 8 | Pending |
 
 **Coverage:**
-- v1 requirements: 45
-- Mapped to phases: 45/45 (100%)
+- v1 requirements: 51
+- Mapped to phases: 51/51 (100%)
 - Unmapped: 0
 
 ---
 
 *Requirements defined: 2026-02-19*
-*Last updated: 2026-02-20 after adding SharePoint Lists vs Dataverse recommendation*
+*Last updated: 2026-02-20 after adding audit & traceability requirements*
